@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C46C2F720F4851800E29F2F /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46C2F620F4851800E29F2F /* CGPoint+Extensions.swift */; };
 		1C4F275720F2BD7C0030B8E2 /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F275320F2BD7C0030B8E2 /* QCMethod.swift */; };
 		1C4F275820F2BD7C0030B8E2 /* roud-round-alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F275420F2BD7C0030B8E2 /* roud-round-alpha.png */; };
 		1C4F275920F2BD7C0030B8E2 /* yellow  car 300x400.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4F275520F2BD7C0030B8E2 /* yellow  car 300x400.png */; };
@@ -17,9 +18,15 @@
 		1CE04C0220EDE65A00CD00CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE04C0020EDE65A00CD00CD /* Main.storyboard */; };
 		1CE04C0420EDE65B00CD00CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE04C0320EDE65B00CD00CD /* Assets.xcassets */; };
 		1CE04C0720EDE65B00CD00CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE04C0520EDE65B00CD00CD /* LaunchScreen.storyboard */; };
+		1CF2DA7620F2C80700F9CE4C /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2DA7520F2C80700F9CE4C /* AnimatedButton.swift */; };
+		1CF2DA7820F31D3B00F9CE4C /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2DA7720F31D3B00F9CE4C /* FlipPresentAnimationController.swift */; };
+		1CF2DA7A20F31E3C00F9CE4C /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2DA7920F31E3B00F9CE4C /* AnimationHelper.swift */; };
+		1CF2DA7C20F32AF500F9CE4C /* FlipDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2DA7B20F32AF500F9CE4C /* FlipDismissAnimationController.swift */; };
+		1CF2DA7E20F32DCB00F9CE4C /* ContentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2DA7D20F32DCB00F9CE4C /* ContentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C46C2F620F4851800E29F2F /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		1C4F275320F2BD7C0030B8E2 /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QCMethod.swift; path = "Animations Showcase/QCMethod.swift"; sourceTree = SOURCE_ROOT; };
 		1C4F275420F2BD7C0030B8E2 /* roud-round-alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "roud-round-alpha.png"; path = "Animations Showcase/roud-round-alpha.png"; sourceTree = SOURCE_ROOT; };
 		1C4F275520F2BD7C0030B8E2 /* yellow  car 300x400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellow  car 300x400.png"; path = "Animations Showcase/yellow  car 300x400.png"; sourceTree = SOURCE_ROOT; };
@@ -32,6 +39,11 @@
 		1CE04C0320EDE65B00CD00CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE04C0620EDE65B00CD00CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE04C0820EDE65B00CD00CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF2DA7520F2C80700F9CE4C /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		1CF2DA7720F31D3B00F9CE4C /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
+		1CF2DA7920F31E3B00F9CE4C /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		1CF2DA7B20F32AF500F9CE4C /* FlipDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationController.swift; sourceTree = "<group>"; };
+		1CF2DA7D20F32DCB00F9CE4C /* ContentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1C55C50520F15CDC00CBB6A1 /* MainViewController.swift */,
+				1CF2DA7D20F32DCB00F9CE4C /* ContentDetailViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -67,6 +80,7 @@
 		1CE04BF020EDE65A00CD00CD = {
 			isa = PBXGroup;
 			children = (
+				1CF2DA7420F2C7EE00F9CE4C /* Chilaquil Customs */,
 				1C4F275220F2BD720030B8E2 /* Qcode */,
 				1C55C50420F15CC800CBB6A1 /* Classes */,
 				1CE04BFB20EDE65A00CD00CD /* Animations Showcase */,
@@ -93,6 +107,18 @@
 				1CE04C0820EDE65B00CD00CD /* Info.plist */,
 			);
 			path = "Animations Showcase";
+			sourceTree = "<group>";
+		};
+		1CF2DA7420F2C7EE00F9CE4C /* Chilaquil Customs */ = {
+			isa = PBXGroup;
+			children = (
+				1CF2DA7920F31E3B00F9CE4C /* AnimationHelper.swift */,
+				1CF2DA7720F31D3B00F9CE4C /* FlipPresentAnimationController.swift */,
+				1CF2DA7B20F32AF500F9CE4C /* FlipDismissAnimationController.swift */,
+				1CF2DA7520F2C80700F9CE4C /* AnimatedButton.swift */,
+				1C46C2F620F4851800E29F2F /* CGPoint+Extensions.swift */,
+			);
+			path = "Chilaquil Customs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF2DA7C20F32AF500F9CE4C /* FlipDismissAnimationController.swift in Sources */,
+				1CF2DA7A20F31E3C00F9CE4C /* AnimationHelper.swift in Sources */,
+				1CF2DA7820F31D3B00F9CE4C /* FlipPresentAnimationController.swift in Sources */,
 				1C55C50620F15CDC00CBB6A1 /* MainViewController.swift in Sources */,
 				1C4F275720F2BD7C0030B8E2 /* QCMethod.swift in Sources */,
 				1CE04BFF20EDE65A00CD00CD /* ViewController.swift in Sources */,
 				1C4F275A20F2BD7C0030B8E2 /* RoadRaceAnim.swift in Sources */,
+				1C46C2F720F4851800E29F2F /* CGPoint+Extensions.swift in Sources */,
+				1CF2DA7E20F32DCB00F9CE4C /* ContentDetailViewController.swift in Sources */,
+				1CF2DA7620F2C80700F9CE4C /* AnimatedButton.swift in Sources */,
 				1CE04BFD20EDE65A00CD00CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
